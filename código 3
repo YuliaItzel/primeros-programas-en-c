@@ -1,0 +1,12 @@
+#include <stdio.h>
+float a,b, resultado;
+int main();
+{
+printf(" Ingrese el valor de a: ");
+scanf("%f", &a);
+printf("Ingrese el valor de b: ");
+scanf("%f", &b);
+resultado= (2*a)/(3*b*(a+b));
+  printf(" El resultado obtenido de la operacion es: %.2f", resultado);
+return 9;
+}
