@@ -1,0 +1,13 @@
+#include <stdio.h>
+char nombre[50];
+int edad, meses;
+int main()
+{
+  printf("Ingresa tu nombre");
+scanf("%s", nombre);
+printf("Ingrese su edad en años");
+scanf("%d", &edad);
+meses=edad*12;
+printf("Hola %s, tienes %d meses de edad", nombre, meses);
+return 7;
+}
