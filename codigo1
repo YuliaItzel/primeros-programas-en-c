@@ -1,0 +1,12 @@
+#include <stdio.h>
+float radio, Area, perimetro;
+int main()
+{
+printf("Ingrese la medida del radio del circulo")
+scanf("%lf", &radio);
+Area= 3.1416*radio*radio;
+perimetro=2*3.1416*radio;
+printf("El area del circulo es: %f\n", area);
+printf(" El perimetro del circulo es: %f\n", perimetro);
+retunr 5;
+}
